@@ -2,8 +2,6 @@ MSE450. Summer 2021. Simon Fraser University
 
 Project Asteroids (1971) developed by Group 5:
 Dmitrii Gusev – 301297008
-Khamat Imanaliyev – 301325999
-Aldiyar Mataibay - 301326136
 
 Functionality:
 - Dual ADC on channels PE3 and PE2
