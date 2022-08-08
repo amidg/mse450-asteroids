@@ -1,0 +1,36 @@
+Dependencies for Project 'MSE450_PROJECT_G05', Target 'HelloLaunchPad': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\src\bitmaps.h)(0x60EBEC14)()
+F (.\src\GameFunctions.h)(0x60EBEC14)()
+F (.\src\Group5_AnalogRead.h)(0x60EBEC14)()
+F (.\src\Group5_UART.h)(0x60EBEC14)()
+F (.\src\main.c)(0x60EC86FC)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-I.\RTE\_HelloLaunchPad-IE:\KeilV5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilV5\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (E:\KeilV5\ARM\ARMCC\include\stdio.h)(0x5E8F0FB2)
+I (E:\KeilV5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (E:\KeilV5\ARM\ARMCC\include\stdlib.h)(0x5E8F0FB2)
+I (E:\KeilV5\ARM\ARMCC\include\string.h)(0x5E8F0FB2)
+I (src\tm4c123gh6pm.h)(0x60EBEC14)
+I (src\GameFunctions.h)(0x60EBEC14)
+I (src\Nokia5110.h)(0x60EBEC14)
+I (src\Group5_AnalogRead.h)(0x60EBEC14)
+I (src\Group5_UART.h)(0x60EBEC14)
+I (src\Object.h)(0x60EBEC14)
+I (src\bitmaps.h)(0x60EBEC14)
+F (.\src\Nokia5110.c)(0x60EBEC14)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-I.\RTE\_HelloLaunchPad-IE:\KeilV5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilV5\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (src\Nokia5110.h)(0x60EBEC14)
+F (.\src\Nokia5110.h)(0x60EBEC14)()
+F (.\src\Object.h)(0x60EBEC14)()
+F (.\src\TExaS.h)(0x60EBEC14)()
+F (.\src\tm4c123gh6pm.h)(0x60EBEC14)()
+F (.\texas.o)(0x5699D7D4)()
+F (RTE\Device\TM4C123GH6PM\startup_TM4C123.s)(0x60E1F58A)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_HelloLaunchPad-IE:\KeilV5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilV5\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 534" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (RTE\Device\TM4C123GH6PM\system_TM4C123.c)(0x60E1F58A)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-I.\RTE\_HelloLaunchPad-IE:\KeilV5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\KeilV5\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="534" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_LM4F120H5QR-o .\system_tm4c123.o --omf_browse .\system_tm4c123.crf --depend .\system_tm4c123.d)
+I (E:\KeilV5\ARM\ARMCC\include\stdint.h)(0x5E8F0FB2)
+I (E:\KeilV5\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530F7186)
+I (E:\KeilV5\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x551060BC)
+I (E:\KeilV5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D4BBD2)
+I (E:\KeilV5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D4BBD2)
+I (E:\KeilV5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D4BBD2)
+I (E:\KeilV5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D4BBD2)
+I (E:\KeilV5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D4BBD2)
+I (E:\KeilV5\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B76296)

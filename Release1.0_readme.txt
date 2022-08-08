@@ -1,0 +1,39 @@
+MSE450 - GROUP 05 
+
+Dmitrii Gusev – 301297008
+Khamat Imanaliyev – 301325999
+Aldiyar Mataibay - 301326136
+
+Project timeline and comments:
+1. What went right on the project side, team and time management?
+    - Project development happend in according to the plan as much as possible.
+    - Team management: I have good teammates that contributed to the code development.
+    - Time management: project had to be squeezed into the time between Capstone and other courses, thus time was limited.
+
+2. Lessons learned:
+    - MCU must be appropriately chosed based on the existing frameworks, support and development needs.
+    - tm4c123gh6pm is a very bad choice for the time constrained MCU development
+    - TI Cortex-M4F MCUs have zero support in the open-source community
+    - EK-TM4C123GXL lacks many important features that could be implemented
+
+3. Project Progress Report:
+    3.1 Project proposal for the Release 1.0:
+        - 2-axis joystick with button implemented
+        - UART communication to computer via separate circuitry
+        - Nokia 5110 screen functionaltiy
+    
+    3.2 Project proposal for Release 2.0:
+        - Fully functional firmware
+        - Breakout board with PCB design
+
+    3.3 Achieved results:
+        - 2-axis joystick using ADC  -> 50% works (single ADC operation)
+        - Seamless PC-to-LaunchPad USB2.0-to-UART communication using MCP2221A integrated circuit
+        - Nokia 5110 -> only in simulator, hardware screen was shipped broken
+        - PCB design -> UART part is completed
+    
+4. Comments:
+    - TI Cortex-M4F microcontroller is far from being a proper learning device due to the lack of documentation.
+    - My project includes dual ADC implementation that is not covered ANYWHERE
+    - TI software is propriatory only and does not have an open-source implementation compare to many other AVR (Arduino), ARM (STM32) or any other (ESP-IDF) microcontrollers.
+    - Keil and its debug functionality makes it incredibly hard to actually understand what is going on with the code.
