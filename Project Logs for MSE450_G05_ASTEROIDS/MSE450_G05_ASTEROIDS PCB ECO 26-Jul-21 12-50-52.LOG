@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetPWR_2 Pin=R3-1
+Removed Pin From Net: NetName=+5V Pin=R3-2
+Change Component Footprint: Designator=R3 Old Footprint=RESC1206(3216)_N New Footprint=RESC2013X60X40ML20T25
+Change Component Comment : Designator=R3 Old Comment=1K 5% 1206(3216) New Comment=1K 5% 0805
+Change Component Designator: OldDesignator=TIVA LAUNCHPAD TM4C123GXL NewDesignator=J1
+Change Managed Component Library Link : Designator=R3 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=AAB4E39B-FF0C-4622-B16C-A147B5C8C67E New ItemGUID=7FF389D5-8BFD-4FA0-B486-A3BF9001C7DD Old RevisionGUID=AA137708-E707-4AEF-8F87-0C5E5ED1A518 New RevisionGUID=96639190-B7D9-4EC9-A92B-2C0B17D80D03
+Change component parameters: Designator = "R3" ("R3"); Footprint = "RESC1206(3216)_N"; UniqueID = "\LYDQQETN" ("\LYDQQETN")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "ERA6AEB123V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V Pin=R3-1
+Added Pin To Net: NetName=NetPWR_2 Pin=R3-2

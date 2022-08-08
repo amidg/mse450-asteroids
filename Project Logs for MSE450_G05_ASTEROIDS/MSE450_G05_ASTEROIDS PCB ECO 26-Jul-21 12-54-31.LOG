@@ -1,0 +1,21 @@
+Change Component Designator: OldDesignator=PWR NewDesignator=5V_PWR
+Added Component: Designator=3V3_PWR(1206_A)
+Add component (AddParameter): Name = "Color"; Value = "Super Red"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.com/led/datasheet/150120SS75000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "1206_A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "150120SS75000"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RESC2013X60X40ML20T25)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA6AEB123V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=3V3_PWR-1
+Added Pin To Net: NetName=+3V3 Pin=R5-1
+Change Net Name : Old Net Name=NetPWR_2 New Net Name=Net5V_PWR_2
+Added Pin To Net: NetName=Net3V3_PWR_2 Pin=3V3_PWR-2
+Added Pin To Net: NetName=Net3V3_PWR_2 Pin=R5-2
+Added Net: Name=Net3V3_PWR_2
+Added Member To Class: ClassName=MSE450_G05_ASTEROIDS Member=Component 3V3_PWR 150120SS75000
+Added Member To Class: ClassName=MSE450_G05_ASTEROIDS Member=Component R5 1K 5% 0805

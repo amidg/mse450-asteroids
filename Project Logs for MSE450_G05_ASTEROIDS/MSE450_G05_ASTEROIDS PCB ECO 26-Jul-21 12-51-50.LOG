@@ -1,0 +1,2 @@
+Change Component Designator: OldDesignator=TIVA LAUNCHPAD TM4C123GXL NewDesignator=J1
+Added Member To Class: ClassName=MSE450_G05_ASTEROIDS Member=Component J1 TIVA

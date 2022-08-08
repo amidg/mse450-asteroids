@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetPWR_2 Pin=R3-1
+Removed Pin From Net: NetName=+5V Pin=R3-2
+Change Component Footprint: Designator=R3 Old Footprint=RESC1206(3216)_N New Footprint=RESC2013X60X40ML20T25
+Change Component Comment : Designator=R3 Old Comment=1K 5% 1206(3216) New Comment=1K 5% 0805
+Added Pin To Net: NetName=+5V Pin=R3-1
+Added Pin To Net: NetName=NetPWR_2 Pin=R3-2
+Added Room: Name=MSE450_G05_ASTEROIDS
